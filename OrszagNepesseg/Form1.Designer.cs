@@ -36,7 +36,7 @@ namespace OrszagNepesseg
             this.ofdMegnyitas = new System.Windows.Forms.OpenFileDialog();
             this.label1 = new System.Windows.Forms.Label();
             this.lbAdatok = new System.Windows.Forms.ListBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rbTomb = new System.Windows.Forms.GroupBox();
             this.rbTobb = new System.Windows.Forms.RadioButton();
             this.rbKevesebb = new System.Windows.Forms.RadioButton();
             this.btnMegszamol = new System.Windows.Forms.Button();
@@ -47,7 +47,7 @@ namespace OrszagNepesseg
             this.btnAtlag = new System.Windows.Forms.Button();
             this.btnKilepes = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.rbTomb.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -106,16 +106,16 @@ namespace OrszagNepesseg
             this.lbAdatok.Size = new System.Drawing.Size(358, 284);
             this.lbAdatok.TabIndex = 2;
             // 
-            // groupBox1
+            // rbTomb
             // 
-            this.groupBox1.Controls.Add(this.rbKevesebb);
-            this.groupBox1.Controls.Add(this.rbTobb);
-            this.groupBox1.Location = new System.Drawing.Point(395, 54);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(267, 100);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Mit számoljak?";
+            this.rbTomb.Controls.Add(this.rbKevesebb);
+            this.rbTomb.Controls.Add(this.rbTobb);
+            this.rbTomb.Location = new System.Drawing.Point(395, 54);
+            this.rbTomb.Name = "rbTomb";
+            this.rbTomb.Size = new System.Drawing.Size(267, 100);
+            this.rbTomb.TabIndex = 3;
+            this.rbTomb.TabStop = false;
+            this.rbTomb.Text = "Mit számoljak?";
             // 
             // rbTobb
             // 
@@ -147,6 +147,7 @@ namespace OrszagNepesseg
             this.btnMegszamol.TabIndex = 4;
             this.btnMegszamol.Text = "Megszámol";
             this.btnMegszamol.UseVisualStyleBackColor = true;
+            this.btnMegszamol.Click += new System.EventHandler(this.btnMegszamol_Click);
             // 
             // label2
             // 
@@ -212,7 +213,7 @@ namespace OrszagNepesseg
             this.Controls.Add(this.btnAtlag);
             this.Controls.Add(this.btnKiiratas);
             this.Controls.Add(this.btnMegszamol);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.rbTomb);
             this.Controls.Add(this.lbAdatok);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
@@ -223,10 +224,11 @@ namespace OrszagNepesseg
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Országok, népességek";
+            this.Shown += new System.EventHandler(this.Form1_Shown);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.rbTomb.ResumeLayout(false);
+            this.rbTomb.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,7 +243,7 @@ namespace OrszagNepesseg
         private System.Windows.Forms.OpenFileDialog ofdMegnyitas;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox lbAdatok;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox rbTomb;
         private System.Windows.Forms.RadioButton rbKevesebb;
         private System.Windows.Forms.RadioButton rbTobb;
         private System.Windows.Forms.Button btnMegszamol;

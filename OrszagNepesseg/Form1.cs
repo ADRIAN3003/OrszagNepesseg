@@ -44,5 +44,22 @@ namespace OrszagNepesseg
                 }
             }
         }
+
+        private void btnMegszamol_Click(object sender, EventArgs e)
+        {
+            if (rbTobb.Checked)
+            {
+
+            }
+            else
+            {
+
+            }
+        }
+
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            rbTobb.Checked = true;
+        }
     }
 }
