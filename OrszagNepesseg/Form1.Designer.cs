@@ -143,7 +143,7 @@ namespace OrszagNepesseg
             // 
             this.btnMegszamol.Location = new System.Drawing.Point(395, 161);
             this.btnMegszamol.Name = "btnMegszamol";
-            this.btnMegszamol.Size = new System.Drawing.Size(113, 29);
+            this.btnMegszamol.Size = new System.Drawing.Size(98, 29);
             this.btnMegszamol.TabIndex = 4;
             this.btnMegszamol.Text = "Megszámol";
             this.btnMegszamol.UseVisualStyleBackColor = true;
@@ -159,9 +159,9 @@ namespace OrszagNepesseg
             // 
             // tbMegszamol
             // 
-            this.tbMegszamol.Location = new System.Drawing.Point(514, 162);
+            this.tbMegszamol.Location = new System.Drawing.Point(499, 162);
             this.tbMegszamol.Name = "tbMegszamol";
-            this.tbMegszamol.Size = new System.Drawing.Size(148, 26);
+            this.tbMegszamol.Size = new System.Drawing.Size(163, 26);
             this.tbMegszamol.TabIndex = 6;
             // 
             // cbKiiratas
@@ -169,12 +169,12 @@ namespace OrszagNepesseg
             this.cbKiiratas.FormattingEnabled = true;
             this.cbKiiratas.Location = new System.Drawing.Point(395, 222);
             this.cbKiiratas.Name = "cbKiiratas";
-            this.cbKiiratas.Size = new System.Drawing.Size(121, 28);
+            this.cbKiiratas.Size = new System.Drawing.Size(148, 28);
             this.cbKiiratas.TabIndex = 7;
             // 
             // btnKiiratas
             // 
-            this.btnKiiratas.Location = new System.Drawing.Point(531, 222);
+            this.btnKiiratas.Location = new System.Drawing.Point(549, 221);
             this.btnKiiratas.Name = "btnKiiratas";
             this.btnKiiratas.Size = new System.Drawing.Size(113, 28);
             this.btnKiiratas.TabIndex = 4;
@@ -185,16 +185,16 @@ namespace OrszagNepesseg
             // 
             this.btnAtlag.Location = new System.Drawing.Point(395, 310);
             this.btnAtlag.Name = "btnAtlag";
-            this.btnAtlag.Size = new System.Drawing.Size(131, 28);
+            this.btnAtlag.Size = new System.Drawing.Size(147, 28);
             this.btnAtlag.TabIndex = 4;
             this.btnAtlag.Text = "Átlag népesség";
             this.btnAtlag.UseVisualStyleBackColor = true;
             // 
             // btnKilepes
             // 
-            this.btnKilepes.Location = new System.Drawing.Point(543, 310);
+            this.btnKilepes.Location = new System.Drawing.Point(549, 310);
             this.btnKilepes.Name = "btnKilepes";
-            this.btnKilepes.Size = new System.Drawing.Size(101, 28);
+            this.btnKilepes.Size = new System.Drawing.Size(113, 28);
             this.btnKilepes.TabIndex = 4;
             this.btnKilepes.Text = "Kilépés";
             this.btnKilepes.UseVisualStyleBackColor = true;
