@@ -133,10 +133,10 @@ namespace OrszagNepesseg
             this.rbKevesebb.AutoSize = true;
             this.rbKevesebb.Location = new System.Drawing.Point(7, 56);
             this.rbKevesebb.Name = "rbKevesebb";
-            this.rbKevesebb.Size = new System.Drawing.Size(155, 24);
+            this.rbKevesebb.Size = new System.Drawing.Size(161, 24);
             this.rbKevesebb.TabIndex = 1;
             this.rbKevesebb.TabStop = true;
-            this.rbKevesebb.Text = "legfejlebb 10 millió";
+            this.rbKevesebb.Text = "Legfejlebb 10 millió";
             this.rbKevesebb.UseVisualStyleBackColor = true;
             // 
             // btnMegszamol
